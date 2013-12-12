@@ -1,0 +1,278 @@
+body {
+	background-color : #fff;
+	color : white;
+	font-family: Segoe UI,Arial,sans-serif
+}
+
+#div_header {
+	position : absolute;
+	top : 10px;
+	left : 0px;
+	width : 100%;
+	height : 10px;
+	background-color: white;
+}
+
+#div_footer {
+	position : absolute;
+	top : 620px;
+	left : 0px;
+	width : 100%;
+	height : 10px;
+	background-color: white;
+}
+#main_box {
+	position : absolute;
+	background-color: #D8D8D8;
+	top:20px;
+	left :100px;
+	width : 1020px;
+	height : 600px;
+	padding : 5px;
+}
+
+#div_logo {
+	
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	display:none;
+	/*border : solid 1px black;*/
+}
+#div_login {
+	/*border : solid 1px black;*/
+	position : absolute;
+	top : 10px;
+	left : 800px;
+	text-align : center;
+	width : 250px;
+	height : 200px;
+	vertical-align: middle;
+}
+#slider {
+	/*border : solid 1px red;*/
+	position: absolute;
+	top : 0px;
+	left : 215px;
+	width : 60%;
+	height : 200px; 
+}
+#slider img {
+	height : 200px;
+	width : 500px;
+}
+
+#div_login,#div_login a{
+	
+	/*font-size : 30px;*/
+	color : #610B21;
+	
+}
+
+#div_logo img {
+	height : 200px;
+	width : 200px;
+}
+
+
+.login-popup, .register-popup, .logout-popup{
+	
+	display:none;
+	background: #333;
+	padding: 10px; 	
+	border: 2px solid #ddd;
+	float: left;
+	font-size: 1.2em;
+	position: fixed;
+	top: 50%; left: 50%;
+	z-index: 99999;
+	box-shadow: 0px 0px 20px #999;
+	-moz-box-shadow: 0px 0px 20px #999; /* Firefox */
+    -webkit-box-shadow: 0px 0px 20px #999; /* Safari, Chrome */
+	border-radius:3px 3px 3px 3px;
+    -moz-border-radius: 3px; /* Firefox */
+    -webkit-border-radius: 3px; /* Safari, Chrome */
+}
+
+img.btn_close {
+	float: right; 
+	margin: -28px -28px 0 0;
+}
+
+fieldset { 
+	border:none; 
+}
+
+form.signin .textbox label { 
+	display:block; 
+	padding-bottom:7px; 
+}
+
+form.register .textbox label {
+	display : block;
+	padding-bottom : 7px;
+}
+
+form.signin .textbox span { 
+	display:block;
+}
+
+form.regsiter {
+	display : block;
+}
+
+form.signin p, form.signin table tr td ,form.register p, form.register span,form.register table tr td { 
+	color:#999; 
+	font-size:11px; 
+	line-height:18px;
+} 
+
+form.signin .textbox input,form.register .textbox input { 
+	background:#666666; 
+	border-bottom:1px solid #333;
+	border-left:1px solid #000;
+	border-right:1px solid #333;
+	border-top:1px solid #000;
+	color:#fff; 
+	border-radius: 3px 3px 3px 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	font:13px "Comic Sans MS", cursive, sans-serif;
+	padding:6px 6px 4px;
+	width:200px;
+}
+
+form.signin input:-moz-placeholder,form.register input:-moz-placeholder { color:#bbb; text-shadow:0 0 2px #000; }
+form.signin input::-webkit-input-placeholder,form.register input::-webkit-input-placeholder { color:#bbb; text-shadow:0 0 2px #000;  }
+
+a.forgot {
+	
+	font-family : Arial;
+	font-size : 12px ! important;
+	color : white ! important;
+}
+
+.button { 
+	background: -moz-linear-gradient(center top, #f3f3f3, #dddddd);
+	background: -webkit-gradient(linear, left top, left bottom, from(#f3f3f3), to(#dddddd));
+	background:  -o-linear-gradient(top, #f3f3f3, #dddddd);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#f3f3f3', EndColorStr='#dddddd');
+	border-color:#000; 
+	border-width:1px;
+	border-radius:4px 4px 4px 4px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+	color:#333;
+	cursor:pointer;
+	display:inline-block;
+	padding:6px 6px 4px;
+	margin-top:10px;
+	font:12px; 
+	width:214px;
+}
+
+.button:hover { background:#ddd; }
+.searchbutton:hover { background:#ddd; font-weight: bold;}
+.searchbutton {font-size : 16px; width:100px !important;}
+
+div#searchdiv{
+	
+	display : block;
+}
+
+div#searchresultdiv{
+	position : absolute;
+	display : none;
+	width : 99%;
+	height : 280px;
+	overflow: auto;
+}
+div#mask {
+	background-color: #fff;
+	height : 90%;
+	width : 90%;
+	z-index: 9999;
+	position: absolute;
+	opacity:0.7;	
+}
+
+div#div_menu{
+	position: absolute;
+	top : 200px;
+	left : 0px;
+	height: 100px;
+	
+}
+
+div#content_div {
+	
+	position : absolute;
+	top : 222px;
+	left : 300px;
+	width : 828px;
+	height: 396px;
+	/*border : solid 1px black;*/
+	background-color : white; 
+	
+}
+
+ul#menu li {
+	padding-top:9px;
+	padding-bottom: 15px;
+	font-size : 25px;
+	padding-left : 10px;
+}
+
+span.ui-menu-icon {
+	
+	background-image: url("../images/selected.png");
+	background-size : 10px 10px;
+	background-repeat: no-repeat;
+	padding-right : 20px;
+	float : left !important;
+	background-position: center;
+}
+
+
+span.ui-menu-no-icon {
+}
+
+.ui-menu {
+	width : 195px;
+}
+
+
+div#home_div,div#listing_div,div#beauticians_div,div#experts_div,div#promo_div,div#contactus_div,div#aboutus_div{
+	display: none;
+	position : absolute;
+	top : 0px;
+	left : 0px;
+	width : 828px;
+	height: 395px;
+	background-color : white;
+	color : rgb(97, 11, 33); 
+}
+
+ol#searchlist,ol#searchresultlist {
+		list-style-type: none; 
+}
+ol#searchresultlist li{
+		/*border: solid 1px gray;*/
+		padding-bottom:  2px; 
+}
+ol#searchlist li {
+	margin: 3px; padding: 0.4em;
+}
+.listTitle{
+	font-size : 25px;
+	font-weight: bold;
+	padding-bottom:20px;
+}
+.listAddress {
+	padding-bottom:10px;
+}
+ul#listServices {
+	list-style-type:square;
+}
+ul#listServices li{
+}
